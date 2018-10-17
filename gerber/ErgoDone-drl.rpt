@@ -1,0 +1,35 @@
+Drill report for C:/Users/Przemek/Documents/ErgoDone/ErgoDone.kicad_pcb
+Created on 17.10.2018 23:43:50
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Front                     front
+    L2 :  Back                      back
+
+
+Drill file 'ErgoDone-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,51mm  0,020"  (19 holes)
+    T2  0,76mm  0,030"  (7 holes)  (with 2 slots)
+    T3  0,90mm  0,035"  (2 holes)
+    T4  0,99mm  0,039"  (181 holes)
+    T5  1,00mm  0,039"  (6 holes)
+    T6  1,09mm  0,043"  (1 hole)
+    T7  1,09mm  0,043"  (55 holes)  (with 2 slots)
+    T8  1,50mm  0,059"  (172 holes)
+    T9  1,70mm  0,067"  (86 holes)
+
+    Total plated holes count 529
+
+
+Drill file 'ErgoDone-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0,99mm  0,039"  (2 holes)
+    T2  1,09mm  0,043"  (2 holes)
+    T3  3,05mm  0,120"  (4 holes)
+    T4  3,30mm  0,130"  (4 holes)
+    T5  3,99mm  0,157"  (47 holes)
+
+    Total unplated holes count 59
