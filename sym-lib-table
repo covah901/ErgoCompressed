@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ErgoDone-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoDone-rescue.lib)(options "")(descr ""))
+  (lib (name component)(type Legacy)(uri ${KIPRJMOD}/component.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/promicro.lib)(options "")(descr ""))
+)
