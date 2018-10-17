@@ -1,86 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:ErgoDone-rescue
-LIBS:component
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:ErgoDone-cache
-LIBS:promicro
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -95,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RESISTOR RC1
+L component:RESISTOR RC1
 U 1 1 4F64F036
 P 3650 3100
 F 0 "RC1" V 3650 3000 50  0000 C CNN
@@ -106,7 +25,7 @@ F 3 "" H 3650 3100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED LED_C1
+L component:LED LED_C1
 U 1 1 4F64F030
 P 3650 3550
 F 0 "LED_C1" H 3650 3650 50  0000 C CNN
@@ -117,7 +36,7 @@ F 3 "" H 3650 3550 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED LED_B1
+L component:LED LED_B1
 U 1 1 4F64F01A
 P 3400 3550
 F 0 "LED_B1" H 3400 3650 50  0000 C CNN
@@ -128,7 +47,7 @@ F 3 "" H 3400 3550 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L RESISTOR RB1
+L component:RESISTOR RB1
 U 1 1 4F64F014
 P 3400 3100
 F 0 "RB1" V 3400 3000 50  0000 C CNN
@@ -139,7 +58,7 @@ F 3 "" H 3400 3100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RESISTOR RA1
+L component:RESISTOR RA1
 U 1 1 4F64E80F
 P 3150 3100
 F 0 "RA1" V 3150 3000 50  0000 C CNN
@@ -150,7 +69,7 @@ F 3 "" H 3150 3100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED LED_A1
+L component:LED LED_A1
 U 1 1 4F64E802
 P 3150 3550
 F 0 "LED_A1" H 3150 3650 50  0000 C CNN
@@ -161,7 +80,7 @@ F 3 "" H 3150 3550 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L component:GND #PWR01
 U 1 1 4F64E513
 P 700 3450
 F 0 "#PWR01" H 700 3450 30  0001 C CNN
@@ -172,7 +91,7 @@ F 3 "" H 700 3450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ANYTHING H99
+L component:ANYTHING H99
 U 1 1 4EC43592
 P 7000 4450
 F 0 "H99" H 7000 4500 40  0000 C CNN
@@ -191,7 +110,7 @@ ROW2
 Text Label 1300 8400 2    60   ~ 0
 ROW1
 $Comp
-L SWITCH_DIODE SW1:11
+L component:SWITCH_DIODE SW1:11
 U 1 1 4F3FEDCE
 P 4700 8650
 F 0 "SW1:11" H 4850 8760 50  0000 C CNN
@@ -202,7 +121,7 @@ F 3 "" H 4700 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW1:10
+L component:SWITCH_DIODE SW1:10
 U 1 1 4D92DF9C
 P 4000 8650
 F 0 "SW1:10" H 4150 8760 50  0000 C CNN
@@ -229,7 +148,7 @@ COL3
 Text Label 3100 9850 3    60   ~ 0
 COL4
 $Comp
-L SWITCH_DIODE SW0:9
+L component:SWITCH_DIODE SW0:9
 U 1 1 4EB1DE18
 P 3300 9300
 F 0 "SW0:9" H 3450 9410 50  0000 C CNN
@@ -240,7 +159,7 @@ F 3 "" H 3300 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW0:8
+L component:SWITCH_DIODE SW0:8
 U 1 1 4EB1DDEB
 P 2600 9300
 F 0 "SW0:8" H 2750 9410 50  0000 C CNN
@@ -251,7 +170,7 @@ F 3 "" H 2600 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW0:12
+L component:SWITCH_DIODE SW0:12
 U 1 1 4EAB15C0
 P 5400 9300
 F 0 "SW0:12" H 5550 9410 50  0000 C CNN
@@ -262,7 +181,7 @@ F 3 "" H 5400 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW0:11
+L component:SWITCH_DIODE SW0:11
 U 1 1 4EAB15BC
 P 4700 9300
 F 0 "SW0:11" H 4850 9410 50  0000 C CNN
@@ -273,7 +192,7 @@ F 3 "" H 4700 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW2:12
+L component:SWITCH_DIODE SW2:12
 U 1 1 4D92DFA0
 P 5400 8000
 F 0 "SW2:12" H 5550 8110 50  0000 C CNN
@@ -284,7 +203,7 @@ F 3 "" H 5400 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW2:13
+L component:SWITCH_DIODE SW2:13
 U 1 1 4D92DFBB
 P 6100 8000
 F 0 "SW2:13" H 6250 8110 50  0000 C CNN
@@ -295,7 +214,7 @@ F 3 "" H 6100 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW1:13
+L component:SWITCH_DIODE SW1:13
 U 1 1 4D92DFAF
 P 6100 8650
 F 0 "SW1:13" H 6250 8760 50  0000 C CNN
@@ -306,7 +225,7 @@ F 3 "" H 6100 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW3:13
+L component:SWITCH_DIODE SW3:13
 U 1 1 4D92DFAD
 P 6100 7350
 F 0 "SW3:13" H 6250 7460 50  0000 C CNN
@@ -317,7 +236,7 @@ F 3 "" H 6100 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW2:7
+L component:SWITCH_DIODE SW2:7
 U 1 1 4D92DFA6
 P 1900 8000
 F 0 "SW2:7" H 2050 8110 50  0000 C CNN
@@ -328,7 +247,7 @@ F 3 "" H 1900 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW2:8
+L component:SWITCH_DIODE SW2:8
 U 1 1 4D92DFA5
 P 2600 8000
 F 0 "SW2:8" H 2750 8110 50  0000 C CNN
@@ -339,7 +258,7 @@ F 3 "" H 2600 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW2:9
+L component:SWITCH_DIODE SW2:9
 U 1 1 4D92DFA4
 P 3300 8000
 F 0 "SW2:9" H 3450 8110 50  0000 C CNN
@@ -350,7 +269,7 @@ F 3 "" H 3300 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW2:11
+L component:SWITCH_DIODE SW2:11
 U 1 1 4D92DFA2
 P 4700 8000
 F 0 "SW2:11" H 4850 8110 50  0000 C CNN
@@ -361,7 +280,7 @@ F 3 "" H 4700 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW1:12
+L component:SWITCH_DIODE SW1:12
 U 1 1 4D92DF9F
 P 5400 8650
 F 0 "SW1:12" H 5550 8760 50  0000 C CNN
@@ -372,7 +291,7 @@ F 3 "" H 5400 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW3:8
+L component:SWITCH_DIODE SW3:8
 U 1 1 4D92DF92
 P 2600 7350
 F 0 "SW3:8" H 2750 7460 50  0000 C CNN
@@ -383,7 +302,7 @@ F 3 "" H 2600 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW3:9
+L component:SWITCH_DIODE SW3:9
 U 1 1 4D92DF91
 P 3300 7350
 F 0 "SW3:9" H 3450 7460 50  0000 C CNN
@@ -394,7 +313,7 @@ F 3 "" H 3300 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW3:10
+L component:SWITCH_DIODE SW3:10
 U 1 1 4D92DF90
 P 4000 7350
 F 0 "SW3:10" H 4150 7460 50  0000 C CNN
@@ -405,7 +324,7 @@ F 3 "" H 4000 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW3:11
+L component:SWITCH_DIODE SW3:11
 U 1 1 4D92DF8F
 P 4700 7350
 F 0 "SW3:11" H 4850 7460 50  0000 C CNN
@@ -416,7 +335,7 @@ F 3 "" H 4700 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW3:12
+L component:SWITCH_DIODE SW3:12
 U 1 1 4D92DF8D
 P 5400 7350
 F 0 "SW3:12" H 5550 7460 50  0000 C CNN
@@ -427,7 +346,7 @@ F 3 "" H 5400 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:13
+L component:SWITCH_DIODE SW4:13
 U 1 1 4D92DF34
 P 6100 6700
 F 0 "SW4:13" H 6250 6810 50  0000 C CNN
@@ -438,7 +357,7 @@ F 3 "" H 6100 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:9
+L component:SWITCH_DIODE SW4:9
 U 1 1 4D92DF30
 P 3300 6700
 F 0 "SW4:9" H 3450 6810 50  0000 C CNN
@@ -449,7 +368,7 @@ F 3 "" H 3300 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:10
+L component:SWITCH_DIODE SW4:10
 U 1 1 4D92DF2F
 P 4000 6700
 F 0 "SW4:10" H 4150 6810 50  0000 C CNN
@@ -460,7 +379,7 @@ F 3 "" H 4000 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:11
+L component:SWITCH_DIODE SW4:11
 U 1 1 4D92DF2D
 P 4700 6700
 F 0 "SW4:11" H 4850 6810 50  0000 C CNN
@@ -471,7 +390,7 @@ F 3 "" H 4700 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:12
+L component:SWITCH_DIODE SW4:12
 U 1 1 4D92DF2C
 P 5400 6700
 F 0 "SW4:12" H 5550 6810 50  0000 C CNN
@@ -482,7 +401,7 @@ F 3 "" H 5400 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:8
+L component:SWITCH_DIODE SW4:8
 U 1 1 4D92DF18
 P 2600 6700
 F 0 "SW4:8" H 2750 6810 50  0000 C CNN
@@ -493,7 +412,7 @@ F 3 "" H 2600 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW4:7
+L component:SWITCH_DIODE SW4:7
 U 1 1 4D92DF15
 P 1900 6700
 F 0 "SW4:7" H 2050 6810 50  0000 C CNN
@@ -530,7 +449,7 @@ LED_B
 Text Label 1950 1600 0    60   ~ 0
 LED_C
 $Comp
-L GND #PWR02
+L component:GND #PWR02
 U 1 1 4FD4C15E
 P 3150 3800
 F 0 "#PWR02" H 3150 3800 30  0001 C CNN
@@ -541,7 +460,7 @@ F 3 "" H 3150 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L component:GND #PWR03
 U 1 1 4FD4C191
 P 3400 3800
 F 0 "#PWR03" H 3400 3800 30  0001 C CNN
@@ -552,7 +471,7 @@ F 3 "" H 3400 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L component:GND #PWR04
 U 1 1 4FD4C1B3
 P 3650 3800
 F 0 "#PWR04" H 3650 3800 30  0001 C CNN
@@ -563,7 +482,7 @@ F 3 "" H 3650 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW0:7
+L component:SWITCH_DIODE SW0:7
 U 1 1 4EB1DDAB
 P 1900 9300
 F 0 "SW0:7" H 2050 9410 50  0000 C CNN
@@ -574,7 +493,7 @@ F 3 "" H 1900 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L component:GND #PWR05
 U 1 1 4FD9DC6F
 P 6400 2700
 F 0 "#PWR05" H 6400 2700 30  0001 C CNN
@@ -585,7 +504,7 @@ F 3 "" H 6400 2700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L RESISTOR R2
+L component:RESISTOR R2
 U 1 1 4FD9DC82
 P 4200 2000
 F 0 "R2" V 4200 1900 50  0000 C CNN
@@ -596,7 +515,7 @@ F 3 "" H 4200 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR06
+L component:VCC #PWR06
 U 1 1 4FD9DD5F
 P 4200 1750
 F 0 "#PWR06" H 4200 1850 30  0001 C CNN
@@ -607,7 +526,7 @@ F 3 "" H 4200 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RESISTOR R1
+L component:RESISTOR R1
 U 1 1 4FD9DD65
 P 4100 2000
 F 0 "R1" V 4100 1900 50  0000 C CNN
@@ -618,7 +537,7 @@ F 3 "" H 4100 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR07
+L component:VCC #PWR07
 U 1 1 4FD9DD6B
 P 4100 1750
 F 0 "#PWR07" H 4100 1850 30  0001 C CNN
@@ -653,7 +572,7 @@ COL4
 Text Label 1950 3250 0    60   ~ 0
 COL12
 $Comp
-L 6PIN J2
+L component:6PIN J2
 U 1 1 4FD9E229
 P 4800 3600
 F 0 "J2" H 4750 3950 60  0000 C CNN
@@ -664,7 +583,7 @@ F 3 "" H 4800 3600 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L component:GND #PWR08
 U 1 1 4FD9EC6B
 P 4450 3050
 F 0 "#PWR08" H 4450 3050 30  0001 C CNN
@@ -675,7 +594,7 @@ F 3 "" H 4450 3050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L component:GND #PWR09
 U 1 1 4FD9EC71
 P 5500 3050
 F 0 "#PWR09" H 5500 3050 30  0001 C CNN
@@ -686,7 +605,7 @@ F 3 "" H 5500 3050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR010
+L component:VCC #PWR010
 U 1 1 4FD9EC7D
 P 4650 3100
 F 0 "#PWR010" H 4650 3200 30  0001 C CNN
@@ -697,7 +616,7 @@ F 3 "" H 4650 3100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3PIN J3
+L component:3PIN J3
 U 1 1 4FD9EE66
 P 4350 2800
 F 0 "J3" H 4300 3000 60  0000 C CNN
@@ -708,7 +627,7 @@ F 3 "" H 4350 2800 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 3PIN J4
+L component:3PIN J4
 U 1 1 4FD9F052
 P 5400 2800
 F 0 "J4" H 5350 3000 60  0000 C CNN
@@ -731,7 +650,7 @@ NoConn ~ 6450 3550
 NoConn ~ 6450 3000
 NoConn ~ 6450 2900
 $Comp
-L SWITCH_DIODE SW2:10
+L component:SWITCH_DIODE SW2:10
 U 1 1 4D92DFA3
 P 4000 8000
 F 0 "SW2:10" H 4150 8110 50  0000 C CNN
@@ -742,7 +661,7 @@ F 3 "" H 4000 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 6PIN J1
+L component:6PIN J1
 U 1 1 4FDD004A
 P 4800 4350
 F 0 "J1" H 4750 4700 60  0000 C CNN
@@ -759,7 +678,7 @@ ROW5
 Text Label 1300 5800 2    60   ~ 0
 ROW5
 $Comp
-L SWITCH_DIODE SW5:13
+L component:SWITCH_DIODE SW5:13
 U 1 1 4FFD34D4
 P 6100 6050
 F 0 "SW5:13" H 6250 6160 50  0000 C CNN
@@ -770,7 +689,7 @@ F 3 "" H 6100 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW5:9
+L component:SWITCH_DIODE SW5:9
 U 1 1 4FFD34DA
 P 3300 6050
 F 0 "SW5:9" H 3450 6160 50  0000 C CNN
@@ -781,7 +700,7 @@ F 3 "" H 3300 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW5:10
+L component:SWITCH_DIODE SW5:10
 U 1 1 4FFD34E0
 P 4000 6050
 F 0 "SW5:10" H 4150 6160 50  0000 C CNN
@@ -792,7 +711,7 @@ F 3 "" H 4000 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW5:11
+L component:SWITCH_DIODE SW5:11
 U 1 1 4FFD34E6
 P 4700 6050
 F 0 "SW5:11" H 4850 6160 50  0000 C CNN
@@ -803,7 +722,7 @@ F 3 "" H 4700 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW5:12
+L component:SWITCH_DIODE SW5:12
 U 1 1 4FFD34EC
 P 5400 6050
 F 0 "SW5:12" H 5550 6160 50  0000 C CNN
@@ -814,7 +733,7 @@ F 3 "" H 5400 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW5:8
+L component:SWITCH_DIODE SW5:8
 U 1 1 4FFD34F2
 P 2600 6050
 F 0 "SW5:8" H 2750 6160 50  0000 C CNN
@@ -825,7 +744,7 @@ F 3 "" H 2600 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW5:7
+L component:SWITCH_DIODE SW5:7
 U 1 1 4FFD34F8
 P 1900 6050
 F 0 "SW5:7" H 2050 6160 50  0000 C CNN
@@ -836,7 +755,7 @@ F 3 "" H 1900 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_PUSH SX1:8
+L component:SWITCH_PUSH SX1:8
 U 1 1 4FFE1283
 P 2600 8650
 F 0 "SX1:8" H 2750 8760 50  0000 C CNN
@@ -847,7 +766,7 @@ F 3 "" H 2600 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_PUSH SX1:7
+L component:SWITCH_PUSH SX1:7
 U 1 1 4FFE1290
 P 1900 8650
 F 0 "SX1:7" H 2050 8760 50  0000 C CNN
@@ -858,7 +777,7 @@ F 3 "" H 1900 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_PUSH SX0:10
+L component:SWITCH_PUSH SX0:10
 U 1 1 4FFE197C
 P 4000 9250
 F 0 "SX0:10" H 4150 9360 50  0000 C CNN
@@ -869,7 +788,7 @@ F 3 "" H 4000 9250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_PUSH SX0:11
+L component:SWITCH_PUSH SX0:11
 U 1 1 4FFE1987
 P 4700 9250
 F 0 "SX0:11" H 4850 9360 50  0000 C CNN
@@ -880,7 +799,7 @@ F 3 "" H 4700 9250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR011
+L component:VCC #PWR011
 U 1 1 4FFF4300
 P 4550 4150
 F 0 "#PWR011" H 4550 4250 30  0001 C CNN
@@ -891,7 +810,7 @@ F 3 "" H 4550 4150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L component:GND #PWR012
 U 1 1 4FFF43E7
 P 4950 4100
 F 0 "#PWR012" H 4950 4100 30  0001 C CNN
@@ -903,7 +822,7 @@ F 3 "" H 4950 4100 60  0001 C CNN
 $EndComp
 NoConn ~ 8050 3050
 $Comp
-L SWITCH_DIODE SW1:9
+L component:SWITCH_DIODE SW1:9
 U 1 1 4D92DF9B
 P 3300 8650
 F 0 "SW1:9" H 3450 8760 50  0000 C CNN
@@ -914,7 +833,7 @@ F 3 "" H 3300 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SWITCH_DIODE SW0:10
+L component:SWITCH_DIODE SW0:10
 U 1 1 4D92DEDD
 P 4000 9300
 F 0 "SW0:10" H 4150 9410 50  0000 C CNN
@@ -926,7 +845,7 @@ F 3 "" H 4000 9300 60  0001 C CNN
 $EndComp
 NoConn ~ 6450 3750
 $Comp
-L GND #PWR013
+L component:GND #PWR013
 U 1 1 50028213
 P 700 3550
 F 0 "#PWR013" H 700 3550 30  0001 C CNN
@@ -951,7 +870,7 @@ COL10
 Text Label 3100 9550 3    60   ~ 0
 COL9
 $Comp
-L VCC #PWR014
+L component:VCC #PWR014
 U 1 1 500D1293
 P 750 3000
 F 0 "#PWR014" H 750 3100 30  0001 C CNN
@@ -962,7 +881,7 @@ F 3 "" H 750 3000 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ANYTHING S1
+L component:ANYTHING S1
 U 1 1 501FC519
 P 7450 4450
 F 0 "S1" H 7450 4500 40  0000 C CNN
@@ -973,7 +892,7 @@ F 3 "" H 7450 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ANYTHING S2
+L component:ANYTHING S2
 U 1 1 501FC51F
 P 7450 4750
 F 0 "S2" H 7450 4800 40  0000 C CNN
@@ -1000,16 +919,15 @@ Connection ~ 4400 7100
 Connection ~ 5100 7100
 Connection ~ 3700 7100
 Connection ~ 2300 7100
-Connection ~ 2300 6450
 Connection ~ 3700 6450
 Connection ~ 5100 6450
 Connection ~ 4400 6450
 Connection ~ 3000 6450
 Connection ~ 3700 9050
 Wire Wire Line
-	1950 2500 6450 2500
+	1950 2500 4100 2500
 Wire Wire Line
-	1950 2400 6450 2400
+	1950 2400 4200 2400
 Wire Wire Line
 	4950 2400 4950 3400
 Wire Wire Line
@@ -1044,8 +962,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 6450 5800 6700
 Wire Wire Line
-	2300 7100 2300 7350
-Wire Wire Line
 	3000 7100 3000 7350
 Wire Wire Line
 	3700 7100 3700 7350
@@ -1064,13 +980,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 8400 3700 8650
 Wire Wire Line
-	3700 9050 3700 9300
+	3700 9050 3700 9250
 Wire Wire Line
 	4400 8400 4400 8650
 Wire Wire Line
 	5100 8400 5100 8650
 Wire Wire Line
-	4400 9050 4400 9300
+	4400 9050 4400 9250
 Wire Wire Line
 	5100 9050 5100 9300
 Wire Wire Line
@@ -1084,17 +1000,17 @@ Wire Wire Line
 Wire Wire Line
 	5100 7100 5100 7350
 Wire Wire Line
-	2400 6150 2400 9850
+	2400 6150 2400 6250
 Wire Wire Line
-	3100 6150 3100 9850
+	3100 6150 3100 6250
 Wire Wire Line
-	3800 6150 3800 9850
+	3800 6150 3800 6250
 Wire Wire Line
-	4500 6150 4500 9850
+	4500 6150 4500 6250
 Wire Wire Line
-	5200 6150 5200 9850
+	5200 6150 5200 6250
 Wire Wire Line
-	1700 6150 1700 9850
+	1700 6150 1700 6250
 Connection ~ 5900 7450
 Connection ~ 5900 8100
 Connection ~ 5900 8750
@@ -1120,7 +1036,6 @@ Connection ~ 1700 8100
 Connection ~ 1700 9400
 Wire Wire Line
 	1600 6700 1600 6450
-Connection ~ 1600 6450
 Wire Wire Line
 	1600 8000 1600 7750
 Connection ~ 1600 7750
@@ -1156,20 +1071,17 @@ Connection ~ 5200 6800
 Connection ~ 4500 6800
 Connection ~ 3800 6800
 Connection ~ 3100 6800
-Connection ~ 2400 6800
 Connection ~ 1700 6800
 Wire Wire Line
-	1300 5800 5800 5800
+	1300 5800 1600 5800
 Wire Wire Line
-	1300 6450 5800 6450
+	1300 7100 1600 7100
 Wire Wire Line
-	1300 7100 5800 7100
+	1300 7750 1600 7750
 Wire Wire Line
-	1300 7750 5800 7750
+	1300 8400 1600 8400
 Wire Wire Line
-	1300 8400 5800 8400
-Wire Wire Line
-	1300 9050 5100 9050
+	1300 9050 1600 9050
 Wire Wire Line
 	1600 8650 1600 8400
 Connection ~ 1600 8400
@@ -1179,16 +1091,15 @@ Connection ~ 2300 8400
 Connection ~ 3700 9250
 Connection ~ 4400 9250
 Wire Wire Line
-	5000 9250 5000 9400
+	5000 9250 5000 9300
 Wire Wire Line
-	4300 9250 4300 9400
+	4300 9250 4300 9300
 Connection ~ 3800 8750
 Wire Wire Line
-	5900 6150 5900 9850
+	5900 6150 5900 6250
 Connection ~ 4950 2400
-Connection ~ 5050 2500
 Wire Wire Line
-	4100 2250 4100 3000
+	4100 2250 4100 2500
 Connection ~ 4100 2500
 Wire Wire Line
 	4200 2250 4200 2400
@@ -1356,7 +1267,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 1600 1950 1600
 $Comp
-L GND #PWR015
+L component:GND #PWR015
 U 1 1 576F2DDE
 P 700 3100
 F 0 "#PWR015" H 700 3100 30  0001 C CNN
@@ -1367,7 +1278,7 @@ F 3 "" H 700 3100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR016
+L component:GND #PWR016
 U 1 1 57617086
 P 6400 2150
 F 0 "#PWR016" H 6400 2150 30  0001 C CNN
@@ -1378,7 +1289,7 @@ F 3 "" H 6400 2150 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR017
+L component:GND #PWR017
 U 1 1 5761A8AF
 P 6400 3650
 F 0 "#PWR017" H 6400 3650 30  0001 C CNN
@@ -1389,7 +1300,7 @@ F 3 "" H 6400 3650 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR018
+L component:VCC #PWR018
 U 1 1 5761B3CF
 P 6450 3150
 F 0 "#PWR018" H 6450 3250 30  0001 C CNN
@@ -1401,7 +1312,7 @@ F 3 "" H 6450 3150 60  0000 C CNN
 $EndComp
 NoConn ~ 8050 3750
 $Comp
-L MCP23017 U2
+L component:MCP23017 U2
 U 1 1 57615FAA
 P 7250 2950
 F 0 "U2" V 7200 2925 60  0000 C BNN
@@ -1413,7 +1324,7 @@ F 3 "" H 7250 2950 60  0000 C CNN
 $EndComp
 NoConn ~ 8050 2650
 $Comp
-L ProMicro U1
+L promicro:ProMicro U1
 U 1 1 5760DCFA
 P 1350 2600
 F 0 "U1" V 1400 2600 60  0000 C CNN
@@ -1425,7 +1336,7 @@ F 3 "" H 1350 2600 60  0000 C CNN
 $EndComp
 NoConn ~ 1950 1300
 $Comp
-L C C1
+L Device:C C1
 U 1 1 57825DD2
 P 10050 2900
 F 0 "C1" H 10075 3000 50  0000 L CNN
@@ -1436,7 +1347,7 @@ F 3 "" H 10050 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR019
+L component:VCC #PWR019
 U 1 1 578269AB
 P 10050 2750
 F 0 "#PWR019" H 10050 2850 30  0001 C CNN
@@ -1447,7 +1358,7 @@ F 3 "" H 10050 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L component:GND #PWR020
 U 1 1 57827429
 P 10050 3100
 F 0 "#PWR020" H 10050 3100 30  0001 C CNN
@@ -1467,7 +1378,7 @@ Connection ~ 5150 2500
 Wire Wire Line
 	4650 3100 4650 3400
 $Comp
-L VCC #PWR021
+L component:VCC #PWR021
 U 1 1 57BF2305
 P 5050 3100
 F 0 "#PWR021" H 5050 3200 30  0001 C CNN
@@ -1480,7 +1391,7 @@ $EndComp
 Wire Wire Line
 	5050 3400 5050 3100
 $Comp
-L DIODE-RESCUE-ErgoDone D1
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D1
 U 1 1 58EA9F40
 P 1900 6250
 F 0 "D1" H 1800 6200 40  0000 C CNN
@@ -1491,7 +1402,7 @@ F 3 "" H 1900 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D2
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D2
 U 1 1 58EAA00D
 P 1900 6350
 F 0 "D2" H 1800 6300 40  0000 C CNN
@@ -1502,7 +1413,7 @@ F 3 "" H 1900 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D11
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D11
 U 1 1 58EAB9D4
 P 2600 6250
 F 0 "D11" H 2500 6200 40  0000 C CNN
@@ -1513,7 +1424,7 @@ F 3 "" H 2600 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D12
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D12
 U 1 1 58EAB9DA
 P 2600 6350
 F 0 "D12" H 2500 6300 40  0000 C CNN
@@ -1524,7 +1435,7 @@ F 3 "" H 2600 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D23
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D23
 U 1 1 58EACA60
 P 3300 6250
 F 0 "D23" H 3200 6200 40  0000 C CNN
@@ -1535,7 +1446,7 @@ F 3 "" H 3300 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D24
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D24
 U 1 1 58EACA66
 P 3300 6350
 F 0 "D24" H 3200 6300 40  0000 C CNN
@@ -1546,7 +1457,7 @@ F 3 "" H 3300 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D35
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D35
 U 1 1 58EAD07E
 P 4000 6250
 F 0 "D35" H 3900 6200 40  0000 C CNN
@@ -1557,7 +1468,7 @@ F 3 "" H 4000 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D36
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D36
 U 1 1 58EAD084
 P 4000 6350
 F 0 "D36" H 3900 6300 40  0000 C CNN
@@ -1568,7 +1479,7 @@ F 3 "" H 4000 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D47
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D47
 U 1 1 58EAD494
 P 4700 6250
 F 0 "D47" H 4600 6200 40  0000 C CNN
@@ -1579,7 +1490,7 @@ F 3 "" H 4700 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D48
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D48
 U 1 1 58EAD49A
 P 4700 6350
 F 0 "D48" H 4600 6300 40  0000 C CNN
@@ -1590,7 +1501,7 @@ F 3 "" H 4700 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D59
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D59
 U 1 1 58EADF7E
 P 5400 6250
 F 0 "D59" H 5300 6200 40  0000 C CNN
@@ -1601,7 +1512,7 @@ F 3 "" H 5400 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D60
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D60
 U 1 1 58EADF84
 P 5400 6350
 F 0 "D60" H 5300 6300 40  0000 C CNN
@@ -1612,7 +1523,7 @@ F 3 "" H 5400 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D71
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D71
 U 1 1 58EAE3C8
 P 6100 6250
 F 0 "D71" H 6000 6200 40  0000 C CNN
@@ -1623,7 +1534,7 @@ F 3 "" H 6100 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D72
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D72
 U 1 1 58EAE3CE
 P 6100 6350
 F 0 "D72" H 6000 6300 40  0000 C CNN
@@ -1634,7 +1545,7 @@ F 3 "" H 6100 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D3
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D3
 U 1 1 58EAF246
 P 1900 6900
 F 0 "D3" H 1800 6850 40  0000 C CNN
@@ -1645,7 +1556,7 @@ F 3 "" H 1900 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D4
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D4
 U 1 1 58EAF24C
 P 1900 7000
 F 0 "D4" H 1800 6950 40  0000 C CNN
@@ -1656,7 +1567,7 @@ F 3 "" H 1900 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D13
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D13
 U 1 1 58EAF31C
 P 2600 6900
 F 0 "D13" H 2500 6850 40  0000 C CNN
@@ -1667,7 +1578,7 @@ F 3 "" H 2600 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D14
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D14
 U 1 1 58EAF322
 P 2600 7000
 F 0 "D14" H 2500 6950 40  0000 C CNN
@@ -1678,7 +1589,7 @@ F 3 "" H 2600 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D25
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D25
 U 1 1 58EAF3F6
 P 3300 6900
 F 0 "D25" H 3200 6850 40  0000 C CNN
@@ -1689,7 +1600,7 @@ F 3 "" H 3300 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D26
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D26
 U 1 1 58EAF3FC
 P 3300 7000
 F 0 "D26" H 3200 6950 40  0000 C CNN
@@ -1700,7 +1611,7 @@ F 3 "" H 3300 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D37
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D37
 U 1 1 58EAF8AC
 P 4000 6900
 F 0 "D37" H 3900 6850 40  0000 C CNN
@@ -1711,7 +1622,7 @@ F 3 "" H 4000 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D38
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D38
 U 1 1 58EAF8B2
 P 4000 7000
 F 0 "D38" H 3900 6950 40  0000 C CNN
@@ -1722,7 +1633,7 @@ F 3 "" H 4000 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D49
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D49
 U 1 1 58EAF9A6
 P 4700 6900
 F 0 "D49" H 4600 6850 40  0000 C CNN
@@ -1733,7 +1644,7 @@ F 3 "" H 4700 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D50
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D50
 U 1 1 58EAF9AC
 P 4700 7000
 F 0 "D50" H 4600 6950 40  0000 C CNN
@@ -1744,7 +1655,7 @@ F 3 "" H 4700 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D61
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D61
 U 1 1 58EAFE98
 P 5400 6900
 F 0 "D61" H 5300 6850 40  0000 C CNN
@@ -1755,7 +1666,7 @@ F 3 "" H 5400 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D62
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D62
 U 1 1 58EAFE9E
 P 5400 7000
 F 0 "D62" H 5300 6950 40  0000 C CNN
@@ -1766,7 +1677,7 @@ F 3 "" H 5400 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D73
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D73
 U 1 1 58EAFF86
 P 6100 6900
 F 0 "D73" H 6000 6850 40  0000 C CNN
@@ -1777,7 +1688,7 @@ F 3 "" H 6100 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D74
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D74
 U 1 1 58EAFF8C
 P 6100 7000
 F 0 "D74" H 6000 6950 40  0000 C CNN
@@ -1788,7 +1699,7 @@ F 3 "" H 6100 7000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D15
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D15
 U 1 1 58EB0F54
 P 2600 7550
 F 0 "D15" H 2500 7500 40  0000 C CNN
@@ -1799,7 +1710,7 @@ F 3 "" H 2600 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D16
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D16
 U 1 1 58EB0F5A
 P 2600 7650
 F 0 "D16" H 2500 7600 40  0000 C CNN
@@ -1810,7 +1721,7 @@ F 3 "" H 2600 7650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D27
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D27
 U 1 1 58EB16BE
 P 3300 7550
 F 0 "D27" H 3200 7500 40  0000 C CNN
@@ -1821,7 +1732,7 @@ F 3 "" H 3300 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D28
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D28
 U 1 1 58EB16C4
 P 3300 7650
 F 0 "D28" H 3200 7600 40  0000 C CNN
@@ -1832,7 +1743,7 @@ F 3 "" H 3300 7650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D39
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D39
 U 1 1 58EB19E8
 P 4000 7550
 F 0 "D39" H 3900 7500 40  0000 C CNN
@@ -1843,7 +1754,7 @@ F 3 "" H 4000 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D40
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D40
 U 1 1 58EB19EE
 P 4000 7650
 F 0 "D40" H 3900 7600 40  0000 C CNN
@@ -1854,7 +1765,7 @@ F 3 "" H 4000 7650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D51
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D51
 U 1 1 58EB1AE2
 P 4700 7550
 F 0 "D51" H 4600 7500 40  0000 C CNN
@@ -1865,7 +1776,7 @@ F 3 "" H 4700 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D52
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D52
 U 1 1 58EB1AE8
 P 4700 7650
 F 0 "D52" H 4600 7600 40  0000 C CNN
@@ -1876,7 +1787,7 @@ F 3 "" H 4700 7650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D9
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D9
 U 1 1 58EB292C
 P 1900 9500
 F 0 "D9" H 1800 9450 40  0000 C CNN
@@ -1887,7 +1798,7 @@ F 3 "" H 1900 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D10
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D10
 U 1 1 58EB2932
 P 1900 9600
 F 0 "D10" H 1800 9550 40  0000 C CNN
@@ -1898,7 +1809,7 @@ F 3 "" H 1900 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D21
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D21
 U 1 1 58EB2938
 P 2600 9500
 F 0 "D21" H 2500 9450 40  0000 C CNN
@@ -1909,7 +1820,7 @@ F 3 "" H 2600 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D22
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D22
 U 1 1 58EB293E
 P 2600 9600
 F 0 "D22" H 2500 9550 40  0000 C CNN
@@ -1920,7 +1831,7 @@ F 3 "" H 2600 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D33
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D33
 U 1 1 58EB2944
 P 3300 9500
 F 0 "D33" H 3200 9450 40  0000 C CNN
@@ -1931,7 +1842,7 @@ F 3 "" H 3300 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D34
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D34
 U 1 1 58EB294A
 P 3300 9600
 F 0 "D34" H 3200 9550 40  0000 C CNN
@@ -1942,7 +1853,7 @@ F 3 "" H 3300 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D45
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D45
 U 1 1 58EB2950
 P 4000 9500
 F 0 "D45" H 3900 9450 40  0000 C CNN
@@ -1953,7 +1864,7 @@ F 3 "" H 4000 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D46
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D46
 U 1 1 58EB2956
 P 4000 9600
 F 0 "D46" H 3900 9550 40  0000 C CNN
@@ -1964,7 +1875,7 @@ F 3 "" H 4000 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D57
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D57
 U 1 1 58EB295C
 P 4700 9500
 F 0 "D57" H 4600 9450 40  0000 C CNN
@@ -1975,7 +1886,7 @@ F 3 "" H 4700 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D58
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D58
 U 1 1 58EB2962
 P 4700 9600
 F 0 "D58" H 4600 9550 40  0000 C CNN
@@ -1986,7 +1897,7 @@ F 3 "" H 4700 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D69
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D69
 U 1 1 58EB2968
 P 5400 9500
 F 0 "D69" H 5300 9450 40  0000 C CNN
@@ -1997,7 +1908,7 @@ F 3 "" H 5400 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D70
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D70
 U 1 1 58EB296E
 P 5400 9600
 F 0 "D70" H 5300 9550 40  0000 C CNN
@@ -2008,7 +1919,7 @@ F 3 "" H 5400 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D63
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D63
 U 1 1 58EB35FC
 P 5400 7550
 F 0 "D63" H 5300 7500 40  0000 C CNN
@@ -2019,7 +1930,7 @@ F 3 "" H 5400 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D64
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D64
 U 1 1 58EB3602
 P 5400 7650
 F 0 "D64" H 5300 7600 40  0000 C CNN
@@ -2030,7 +1941,7 @@ F 3 "" H 5400 7650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D75
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D75
 U 1 1 58EB371E
 P 6100 7550
 F 0 "D75" H 6000 7500 40  0000 C CNN
@@ -2041,7 +1952,7 @@ F 3 "" H 6100 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D76
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D76
 U 1 1 58EB3724
 P 6100 7650
 F 0 "D76" H 6000 7600 40  0000 C CNN
@@ -2052,7 +1963,7 @@ F 3 "" H 6100 7650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D5
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D5
 U 1 1 58EB5CF2
 P 1900 8200
 F 0 "D5" H 1800 8150 40  0000 C CNN
@@ -2063,7 +1974,7 @@ F 3 "" H 1900 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D6
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D6
 U 1 1 58EB5CF8
 P 1900 8300
 F 0 "D6" H 1800 8250 40  0000 C CNN
@@ -2074,7 +1985,7 @@ F 3 "" H 1900 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D17
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D17
 U 1 1 58EB5CFE
 P 2600 8200
 F 0 "D17" H 2500 8150 40  0000 C CNN
@@ -2085,7 +1996,7 @@ F 3 "" H 2600 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D18
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D18
 U 1 1 58EB5D04
 P 2600 8300
 F 0 "D18" H 2500 8250 40  0000 C CNN
@@ -2096,7 +2007,7 @@ F 3 "" H 2600 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D29
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D29
 U 1 1 58EB5D0A
 P 3300 8200
 F 0 "D29" H 3200 8150 40  0000 C CNN
@@ -2107,7 +2018,7 @@ F 3 "" H 3300 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D30
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D30
 U 1 1 58EB5D10
 P 3300 8300
 F 0 "D30" H 3200 8250 40  0000 C CNN
@@ -2118,7 +2029,7 @@ F 3 "" H 3300 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D41
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D41
 U 1 1 58EB5D16
 P 4000 8200
 F 0 "D41" H 3900 8150 40  0000 C CNN
@@ -2129,7 +2040,7 @@ F 3 "" H 4000 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D42
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D42
 U 1 1 58EB5D1C
 P 4000 8300
 F 0 "D42" H 3900 8250 40  0000 C CNN
@@ -2140,7 +2051,7 @@ F 3 "" H 4000 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D53
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D53
 U 1 1 58EB5D22
 P 4700 8200
 F 0 "D53" H 4600 8150 40  0000 C CNN
@@ -2151,7 +2062,7 @@ F 3 "" H 4700 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D54
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D54
 U 1 1 58EB5D28
 P 4700 8300
 F 0 "D54" H 4600 8250 40  0000 C CNN
@@ -2162,7 +2073,7 @@ F 3 "" H 4700 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D65
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D65
 U 1 1 58EB5D2E
 P 5400 8200
 F 0 "D65" H 5300 8150 40  0000 C CNN
@@ -2173,7 +2084,7 @@ F 3 "" H 5400 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D66
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D66
 U 1 1 58EB5D34
 P 5400 8300
 F 0 "D66" H 5300 8250 40  0000 C CNN
@@ -2184,7 +2095,7 @@ F 3 "" H 5400 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D77
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D77
 U 1 1 58EB5D3A
 P 6100 8200
 F 0 "D77" H 6000 8150 40  0000 C CNN
@@ -2195,7 +2106,7 @@ F 3 "" H 6100 8200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D78
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D78
 U 1 1 58EB5D40
 P 6100 8300
 F 0 "D78" H 6000 8250 40  0000 C CNN
@@ -2206,7 +2117,7 @@ F 3 "" H 6100 8300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D7
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D7
 U 1 1 58EB78B2
 P 1900 8850
 F 0 "D7" H 1800 8800 40  0000 C CNN
@@ -2217,7 +2128,7 @@ F 3 "" H 1900 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D8
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D8
 U 1 1 58EB78B8
 P 1900 8950
 F 0 "D8" H 1800 8900 40  0000 C CNN
@@ -2228,7 +2139,7 @@ F 3 "" H 1900 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D19
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D19
 U 1 1 58EB78BE
 P 2600 8850
 F 0 "D19" H 2500 8800 40  0000 C CNN
@@ -2239,7 +2150,7 @@ F 3 "" H 2600 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D20
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D20
 U 1 1 58EB78C4
 P 2600 8950
 F 0 "D20" H 2500 8900 40  0000 C CNN
@@ -2250,7 +2161,7 @@ F 3 "" H 2600 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D31
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D31
 U 1 1 58EB78CA
 P 3300 8850
 F 0 "D31" H 3200 8800 40  0000 C CNN
@@ -2261,7 +2172,7 @@ F 3 "" H 3300 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D32
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D32
 U 1 1 58EB78D0
 P 3300 8950
 F 0 "D32" H 3200 8900 40  0000 C CNN
@@ -2272,7 +2183,7 @@ F 3 "" H 3300 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D43
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D43
 U 1 1 58EB78D6
 P 4000 8850
 F 0 "D43" H 3900 8800 40  0000 C CNN
@@ -2283,7 +2194,7 @@ F 3 "" H 4000 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D44
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D44
 U 1 1 58EB78DC
 P 4000 8950
 F 0 "D44" H 3900 8900 40  0000 C CNN
@@ -2294,7 +2205,7 @@ F 3 "" H 4000 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D55
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D55
 U 1 1 58EB78E2
 P 4700 8850
 F 0 "D55" H 4600 8800 40  0000 C CNN
@@ -2305,7 +2216,7 @@ F 3 "" H 4700 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D56
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D56
 U 1 1 58EB78E8
 P 4700 8950
 F 0 "D56" H 4600 8900 40  0000 C CNN
@@ -2316,7 +2227,7 @@ F 3 "" H 4700 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D67
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D67
 U 1 1 58EB78EE
 P 5400 8850
 F 0 "D67" H 5300 8800 40  0000 C CNN
@@ -2327,7 +2238,7 @@ F 3 "" H 5400 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D68
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D68
 U 1 1 58EB78F4
 P 5400 8950
 F 0 "D68" H 5300 8900 40  0000 C CNN
@@ -2338,7 +2249,7 @@ F 3 "" H 5400 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D79
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D79
 U 1 1 58EB78FA
 P 6100 8850
 F 0 "D79" H 6000 8800 40  0000 C CNN
@@ -2349,7 +2260,7 @@ F 3 "" H 6100 8850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE-RESCUE-ErgoDone D80
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D80
 U 1 1 58EB7900
 P 6100 8950
 F 0 "D80" H 6000 8900 40  0000 C CNN
@@ -2360,7 +2271,6 @@ F 3 "" H 6100 8950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 1700 6250
-Connection ~ 1700 6350
 Connection ~ 2400 6250
 Connection ~ 2400 6350
 Connection ~ 3100 6250
@@ -2440,115 +2350,115 @@ Connection ~ 2400 9500
 Connection ~ 1700 9500
 Connection ~ 1700 9600
 Wire Wire Line
-	2100 6150 2100 6350
+	2100 6150 2100 6250
 Connection ~ 2100 6250
 Wire Wire Line
-	2800 6150 2800 6350
+	2800 6150 2800 6250
 Connection ~ 2800 6250
 Wire Wire Line
-	3500 6150 3500 6350
+	3500 6150 3500 6250
 Connection ~ 3500 6250
 Wire Wire Line
-	5600 6150 5600 6350
+	5600 6150 5600 6250
 Connection ~ 5600 6250
 Wire Wire Line
-	6300 6150 6300 6350
+	6300 6150 6300 6250
 Connection ~ 6300 6250
 Wire Wire Line
-	6300 6800 6300 7000
+	6300 6800 6300 6900
 Connection ~ 6300 6900
 Wire Wire Line
-	5600 6800 5600 7000
+	5600 6800 5600 6900
 Connection ~ 5600 6900
 Wire Wire Line
-	4900 6800 4900 7000
+	4900 6800 4900 6900
 Connection ~ 4900 6900
 Wire Wire Line
-	4200 6800 4200 7000
+	4200 6800 4200 6900
 Connection ~ 4200 6900
 Wire Wire Line
-	3500 6800 3500 7000
+	3500 6800 3500 6900
 Connection ~ 3500 6900
 Wire Wire Line
-	2800 6800 2800 7000
+	2800 6800 2800 6900
 Connection ~ 2800 6900
 Wire Wire Line
-	2100 6800 2100 7000
+	2100 6800 2100 6900
 Connection ~ 2100 6900
 Wire Wire Line
-	2800 7450 2800 7650
+	2800 7450 2800 7550
 Connection ~ 2800 7550
 Wire Wire Line
-	3500 7450 3500 7650
+	3500 7450 3500 7550
 Connection ~ 3500 7550
 Wire Wire Line
-	4200 7450 4200 7650
+	4200 7450 4200 7550
 Connection ~ 4200 7550
 Wire Wire Line
-	4900 7450 4900 7650
+	4900 7450 4900 7550
 Connection ~ 4900 7550
 Wire Wire Line
-	6300 7450 6300 7650
+	6300 7450 6300 7550
 Connection ~ 6300 7550
 Wire Wire Line
-	2100 8100 2100 8300
+	2100 8100 2100 8200
 Connection ~ 2100 8200
 Wire Wire Line
-	2800 8100 2800 8300
+	2800 8100 2800 8200
 Connection ~ 2800 8200
 Wire Wire Line
-	3500 8100 3500 8300
+	3500 8100 3500 8200
 Connection ~ 3500 8200
 Wire Wire Line
-	4200 8100 4200 8300
+	4200 8100 4200 8200
 Connection ~ 4200 8200
 Wire Wire Line
-	4900 8100 4900 8300
+	4900 8100 4900 8200
 Connection ~ 4900 8200
 Wire Wire Line
-	5600 8100 5600 8300
+	5600 8100 5600 8200
 Connection ~ 5600 8200
 Wire Wire Line
-	6300 8100 6300 8300
+	6300 8100 6300 8200
 Connection ~ 6300 8200
 Wire Wire Line
-	2100 8750 2100 8950
+	2100 8750 2100 8850
 Connection ~ 2100 8850
 Wire Wire Line
-	2800 8750 2800 8950
+	2800 8750 2800 8850
 Connection ~ 2800 8850
 Wire Wire Line
-	3500 8750 3500 8950
+	3500 8750 3500 8850
 Connection ~ 3500 8850
 Wire Wire Line
-	4200 8750 4200 8950
+	4200 8750 4200 8850
 Connection ~ 4200 8850
 Wire Wire Line
-	4900 8750 4900 8950
+	4900 8750 4900 8850
 Connection ~ 4900 8850
 Wire Wire Line
-	5600 8750 5600 8950
+	5600 8750 5600 8850
 Connection ~ 5600 8850
 Wire Wire Line
-	6300 8750 6300 8950
+	6300 8750 6300 8850
 Connection ~ 6300 8850
 Wire Wire Line
-	5600 9400 5600 9600
+	5600 9400 5600 9500
 Connection ~ 5600 9500
 Wire Wire Line
-	4900 9400 4900 9600
+	4900 9400 4900 9500
 Connection ~ 4900 9500
 Wire Wire Line
-	4200 9400 4200 9600
+	4200 9400 4200 9500
 Connection ~ 4200 9500
 Wire Wire Line
-	3500 9400 3500 9600
+	3500 9400 3500 9500
 Connection ~ 3500 9500
 Wire Wire Line
-	2800 9400 2800 9600
+	2800 9400 2800 9500
 Connection ~ 2800 9500
 Wire Wire Line
-	2100 9400 2100 9600
+	2100 9400 2100 9500
 Connection ~ 2100 9500
 Wire Wire Line
 	2100 8750 2200 8750
@@ -2561,7 +2471,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 8750 2900 8650
 $Comp
-L DIODE D81
+L component:DIODE D81
 U 1 1 58E9D96A
 P 1900 8750
 F 0 "D81" H 1800 8700 40  0000 C CNN
@@ -2572,7 +2482,7 @@ F 3 "" H 1900 8750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIODE D82
+L component:DIODE D82
 U 1 1 58E9DD8B
 P 2600 8750
 F 0 "D82" H 2500 8700 40  0000 C CNN
@@ -2583,12 +2493,471 @@ F 3 "" H 2600 8750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5600 7450 5600 7650
+	5600 7450 5600 7550
 Connection ~ 5600 7550
 Wire Wire Line
-	4200 6150 4200 6350
+	4200 6150 4200 6250
 Connection ~ 4200 6250
 Wire Wire Line
-	4900 6150 4900 6350
+	4900 6150 4900 6250
 Connection ~ 4900 6250
+Wire Wire Line
+	3000 9050 3700 9050
+Wire Wire Line
+	4400 9050 5100 9050
+Wire Wire Line
+	2300 9050 3000 9050
+Wire Wire Line
+	3000 8400 3700 8400
+Wire Wire Line
+	4400 8400 5100 8400
+Wire Wire Line
+	5100 8400 5800 8400
+Wire Wire Line
+	3700 8400 4400 8400
+Wire Wire Line
+	3000 7750 3700 7750
+Wire Wire Line
+	4400 7750 5100 7750
+Wire Wire Line
+	5100 7750 5800 7750
+Wire Wire Line
+	3700 7750 4400 7750
+Wire Wire Line
+	2300 7750 3000 7750
+Wire Wire Line
+	3000 7100 3700 7100
+Wire Wire Line
+	4400 7100 5100 7100
+Wire Wire Line
+	5100 7100 5800 7100
+Wire Wire Line
+	3700 7100 4400 7100
+Wire Wire Line
+	2300 7100 3000 7100
+Wire Wire Line
+	3700 6450 4400 6450
+Wire Wire Line
+	5100 6450 5800 6450
+Wire Wire Line
+	4400 6450 5100 6450
+Wire Wire Line
+	3000 6450 3700 6450
+Wire Wire Line
+	3700 9050 4400 9050
+Wire Wire Line
+	4750 2400 4950 2400
+Wire Wire Line
+	5900 7450 5900 7550
+Wire Wire Line
+	5900 8100 5900 8200
+Wire Wire Line
+	5900 8750 5900 8850
+Wire Wire Line
+	5200 7450 5200 7550
+Wire Wire Line
+	5200 8100 5200 8200
+Wire Wire Line
+	5200 8750 5200 8850
+Wire Wire Line
+	5200 9400 5200 9500
+Wire Wire Line
+	4500 7450 4500 7550
+Wire Wire Line
+	4500 8100 4500 8200
+Wire Wire Line
+	4500 8750 4500 8850
+Wire Wire Line
+	4500 9400 4500 9500
+Wire Wire Line
+	3800 7450 3800 7550
+Wire Wire Line
+	3800 8100 3800 8200
+Wire Wire Line
+	3800 9400 3800 9500
+Wire Wire Line
+	3100 7450 3100 7550
+Wire Wire Line
+	3100 8100 3100 8200
+Wire Wire Line
+	3100 8750 3100 8850
+Wire Wire Line
+	3100 9400 3100 9500
+Wire Wire Line
+	2400 7450 2400 7550
+Wire Wire Line
+	2400 8100 2400 8200
+Wire Wire Line
+	2400 9400 2400 9500
+Wire Wire Line
+	1700 8100 1700 8200
+Wire Wire Line
+	1700 9400 1700 9500
+Wire Wire Line
+	1600 7750 2300 7750
+Wire Wire Line
+	1600 9050 2300 9050
+Wire Wire Line
+	2300 5800 3000 5800
+Wire Wire Line
+	3700 5800 4400 5800
+Wire Wire Line
+	5100 5800 5800 5800
+Wire Wire Line
+	4400 5800 5100 5800
+Wire Wire Line
+	3000 5800 3700 5800
+Wire Wire Line
+	1600 5800 2300 5800
+Wire Wire Line
+	5900 6800 5900 6900
+Wire Wire Line
+	5200 6800 5200 6900
+Wire Wire Line
+	4500 6800 4500 6900
+Wire Wire Line
+	3800 6800 3800 6900
+Wire Wire Line
+	3100 6800 3100 6900
+Wire Wire Line
+	1700 6800 1700 6900
+Wire Wire Line
+	1600 8400 2300 8400
+Wire Wire Line
+	2300 8400 3000 8400
+Wire Wire Line
+	3700 9250 3700 9300
+Wire Wire Line
+	4400 9250 4400 9300
+Wire Wire Line
+	3800 8750 3800 8850
+Wire Wire Line
+	4950 2400 6450 2400
+Wire Wire Line
+	4100 2500 4100 3000
+Wire Wire Line
+	4200 2400 4750 2400
+Wire Wire Line
+	4300 9300 4300 9400
+Wire Wire Line
+	5000 9300 5000 9400
+Wire Wire Line
+	5150 2500 6450 2500
+Wire Wire Line
+	1700 6250 1700 6350
+Wire Wire Line
+	1700 6350 1700 6800
+Wire Wire Line
+	2400 6250 2400 6350
+Wire Wire Line
+	3100 6250 3100 6350
+Wire Wire Line
+	3100 6350 3100 6800
+Wire Wire Line
+	3800 6250 3800 6350
+Wire Wire Line
+	3800 6350 3800 6800
+Wire Wire Line
+	4500 6350 4500 6800
+Wire Wire Line
+	4500 6250 4500 6350
+Wire Wire Line
+	5200 6250 5200 6350
+Wire Wire Line
+	5200 6350 5200 6800
+Wire Wire Line
+	5900 6250 5900 6350
+Wire Wire Line
+	5900 6350 5900 6800
+Wire Wire Line
+	5900 6900 5900 7000
+Wire Wire Line
+	5900 7000 5900 7450
+Wire Wire Line
+	5200 6900 5200 7000
+Wire Wire Line
+	5200 7000 5200 7450
+Wire Wire Line
+	4500 7000 4500 7450
+Wire Wire Line
+	4500 6900 4500 7000
+Wire Wire Line
+	3800 6900 3800 7000
+Wire Wire Line
+	3800 7000 3800 7450
+Wire Wire Line
+	3100 7000 3100 7450
+Wire Wire Line
+	3100 6900 3100 7000
+Wire Wire Line
+	2400 6900 2400 7000
+Wire Wire Line
+	2400 7000 2400 7450
+Wire Wire Line
+	1700 6900 1700 7000
+Wire Wire Line
+	2400 7550 2400 7650
+Wire Wire Line
+	2400 7650 2400 8100
+Wire Wire Line
+	3100 7650 3100 8100
+Wire Wire Line
+	3100 7550 3100 7650
+Wire Wire Line
+	3800 7550 3800 7650
+Wire Wire Line
+	3800 7650 3800 8100
+Wire Wire Line
+	4500 7650 4500 8100
+Wire Wire Line
+	4500 7550 4500 7650
+Wire Wire Line
+	5200 7550 5200 7650
+Wire Wire Line
+	5200 7650 5200 8100
+Wire Wire Line
+	5900 7550 5900 7650
+Wire Wire Line
+	5900 7650 5900 8100
+Wire Wire Line
+	5900 8200 5900 8300
+Wire Wire Line
+	5900 8300 5900 8750
+Wire Wire Line
+	5200 8300 5200 8750
+Wire Wire Line
+	5200 8200 5200 8300
+Wire Wire Line
+	4500 8200 4500 8300
+Wire Wire Line
+	4500 8300 4500 8750
+Wire Wire Line
+	3800 8300 3800 8750
+Wire Wire Line
+	3800 8200 3800 8300
+Wire Wire Line
+	3100 8200 3100 8300
+Wire Wire Line
+	3100 8300 3100 8750
+Wire Wire Line
+	2400 8300 2400 8750
+Wire Wire Line
+	2400 8200 2400 8300
+Wire Wire Line
+	1700 8200 1700 8300
+Wire Wire Line
+	1700 8300 1700 8750
+Wire Wire Line
+	1700 8850 1700 8950
+Wire Wire Line
+	1700 8950 1700 9400
+Wire Wire Line
+	2400 8950 2400 9400
+Wire Wire Line
+	2400 8850 2400 8950
+Wire Wire Line
+	3100 8950 3100 9400
+Wire Wire Line
+	3100 8850 3100 8950
+Wire Wire Line
+	3800 8850 3800 8950
+Wire Wire Line
+	3800 8950 3800 9400
+Wire Wire Line
+	4500 8950 4500 9400
+Wire Wire Line
+	4500 8850 4500 8950
+Wire Wire Line
+	5200 8850 5200 8950
+Wire Wire Line
+	5200 8950 5200 9400
+Wire Wire Line
+	5900 8950 5900 9850
+Wire Wire Line
+	5900 8850 5900 8950
+Wire Wire Line
+	5200 9600 5200 9850
+Wire Wire Line
+	5200 9500 5200 9600
+Wire Wire Line
+	4500 9500 4500 9600
+Wire Wire Line
+	4500 9600 4500 9850
+Wire Wire Line
+	3800 9600 3800 9850
+Wire Wire Line
+	3800 9500 3800 9600
+Wire Wire Line
+	3100 9500 3100 9600
+Wire Wire Line
+	3100 9600 3100 9850
+Wire Wire Line
+	2400 9600 2400 9850
+Wire Wire Line
+	2400 9500 2400 9600
+Wire Wire Line
+	1700 9500 1700 9600
+Wire Wire Line
+	1700 9600 1700 9850
+Wire Wire Line
+	2100 6250 2100 6350
+Wire Wire Line
+	2800 6250 2800 6350
+Wire Wire Line
+	3500 6250 3500 6350
+Wire Wire Line
+	5600 6250 5600 6350
+Wire Wire Line
+	6300 6250 6300 6350
+Wire Wire Line
+	6300 6900 6300 7000
+Wire Wire Line
+	5600 6900 5600 7000
+Wire Wire Line
+	4900 6900 4900 7000
+Wire Wire Line
+	4200 6900 4200 7000
+Wire Wire Line
+	3500 6900 3500 7000
+Wire Wire Line
+	2800 6900 2800 7000
+Wire Wire Line
+	2100 6900 2100 7000
+Wire Wire Line
+	2800 7550 2800 7650
+Wire Wire Line
+	3500 7550 3500 7650
+Wire Wire Line
+	4200 7550 4200 7650
+Wire Wire Line
+	4900 7550 4900 7650
+Wire Wire Line
+	6300 7550 6300 7650
+Wire Wire Line
+	2100 8200 2100 8300
+Wire Wire Line
+	2800 8200 2800 8300
+Wire Wire Line
+	3500 8200 3500 8300
+Wire Wire Line
+	4200 8200 4200 8300
+Wire Wire Line
+	4900 8200 4900 8300
+Wire Wire Line
+	5600 8200 5600 8300
+Wire Wire Line
+	6300 8200 6300 8300
+Wire Wire Line
+	2100 8850 2100 8950
+Wire Wire Line
+	2800 8850 2800 8950
+Wire Wire Line
+	3500 8850 3500 8950
+Wire Wire Line
+	4200 8850 4200 8950
+Wire Wire Line
+	4900 8850 4900 8950
+Wire Wire Line
+	5600 8850 5600 8950
+Wire Wire Line
+	6300 8850 6300 8950
+Wire Wire Line
+	5600 9500 5600 9600
+Wire Wire Line
+	4900 9500 4900 9600
+Wire Wire Line
+	4200 9500 4200 9600
+Wire Wire Line
+	3500 9500 3500 9600
+Wire Wire Line
+	2800 9500 2800 9600
+Wire Wire Line
+	2100 9500 2100 9600
+Wire Wire Line
+	1700 8750 1700 8850
+Wire Wire Line
+	2400 8750 2400 8850
+Wire Wire Line
+	5600 7550 5600 7650
+Wire Wire Line
+	4200 6250 4200 6350
+Wire Wire Line
+	4900 6250 4900 6350
+Wire Wire Line
+	4100 2500 5150 2500
+Wire Wire Line
+	2400 6350 2400 6800
+Wire Wire Line
+	2400 6800 2400 6900
+Wire Wire Line
+	2300 6450 3000 6450
+Connection ~ 1700 6350
+Wire Wire Line
+	1600 6450 2300 6450
+Wire Wire Line
+	1300 6450 1600 6450
+Connection ~ 2400 6800
+Connection ~ 1600 6450
+Wire Wire Line
+	2300 7100 2300 7350
+Connection ~ 2300 6450
+$Comp
+L component:SWITCH_DIODE SW3:7
+U 1 1 5BD40637
+P 1900 7350
+F 0 "SW3:7" H 2050 7460 50  0000 C CNN
+F 1 "SW3:6" H 1900 7270 50  0000 C CNN
+F 2 "ErgoDone:MX_FLIP_DIODE_NOSMD" H 1900 7350 60  0001 C CNN
+F 3 "" H 1900 7350 60  0001 C CNN
+	1    1900 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7450 2200 7450
+Wire Wire Line
+	2200 7450 2200 7350
+Wire Wire Line
+	1600 7350 1600 7100
+Connection ~ 1600 7100
+Wire Wire Line
+	1600 7100 2300 7100
+$Comp
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D802
+U 1 1 5BDE5706
+P 1900 7550
+F 0 "D802" H 1900 7848 40  0000 C CNN
+F 1 "DIODE" H 1900 7772 40  0000 C CNN
+F 2 "ErgoDone:D_1206_L" H 1900 7681 60  0000 C CNN
+F 3 "" H 1900 7550 60  0000 C CNN
+	1    1900 7550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7550 2100 7450
+Connection ~ 2100 7450
+Wire Wire Line
+	1700 7550 1700 7650
+Connection ~ 1700 7550
+Connection ~ 1700 7450
+Wire Wire Line
+	1700 7450 1700 7550
+Wire Wire Line
+	1700 7000 1700 7450
+$Comp
+L ErgoDone-rescue:DIODE-RESCUE-ErgoDone D801
+U 1 1 5BEC8702
+P 1900 7650
+F 0 "D801" H 1900 7948 40  0000 C CNN
+F 1 "DIODE" H 1900 7872 40  0000 C CNN
+F 2 "ErgoDone:D_1206_R" H 1900 7781 60  0000 C CNN
+F 3 "" H 1900 7650 60  0000 C CNN
+	1    1900 7650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7650 2100 7550
+Connection ~ 2100 7550
+Connection ~ 1700 7650
+Wire Wire Line
+	1700 7650 1700 8100
 $EndSCHEMATC
