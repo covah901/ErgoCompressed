@@ -1,0 +1,47 @@
+### Module positions - created on 2018-10-18 10:49:27 ###
+### Printed by Pcbnew version kicad (5.0.1)-rc2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+D2        DIODE     D_1206_R           -72.3646   -72.6694    0.0000  bottom
+D4        DIODE     D_1206_R           -72.4281   -91.8083    0.0000  bottom
+D6        DIODE     D_1206_R           -72.2659  -129.9260    0.0000  bottom
+D8        DIODE     D_1206_R           -56.6674  -145.3642   25.0000  bottom
+D10       DIODE     D_1206_R           -37.9730  -150.2410   25.0000  bottom
+D12       DIODE     D_1206_R           -91.4146   -72.6694    0.0000  bottom
+D14       DIODE     D_1206_R           -91.4146   -91.7702    0.0000  bottom
+D16       DIODE     D_1206_R           -91.4146  -110.8710    0.0000  bottom
+D18       DIODE     D_1206_R           -91.3638  -129.8702    0.0000  bottom
+D20       DIODE     D_1206_R           -73.9394  -137.3886   25.0000  bottom
+D22       DIODE     D_1206_R           -55.1434  -142.1130   25.0000  bottom
+D24       DIODE     D_1206_R          -110.4646   -71.4502    0.0000  bottom
+D26       DIODE     D_1206_R          -110.4646   -90.4494    0.0000  bottom
+D28       DIODE     D_1206_R          -110.4646  -109.5502    0.0000  bottom
+D30       DIODE     D_1206_R          -110.4138  -128.6002    0.0000  bottom
+D32       DIODE     D_1206_R          -110.4138  -147.6502    0.0000  bottom
+D34       DIODE     D_1206_R           -45.9486  -167.5130   25.0000  bottom
+D36       DIODE     D_1206_R          -129.4638   -69.8246    0.0000  bottom
+D38       DIODE     D_1206_R          -129.5146   -88.9254    0.0000  bottom
+D40       DIODE     D_1206_R          -129.4638  -107.9754    0.0000  bottom
+D42       DIODE     D_1206_R          -129.5654  -126.9746    0.0000  bottom
+D44       DIODE     D_1206_R          -129.4638  -146.0754    0.0000  bottom
+D46       DIODE     D_1206_R           -88.2142  -149.9362  115.0000  bottom
+D48       DIODE     D_1206_R          -148.5138   -71.4502    0.0000  bottom
+D50       DIODE     D_1206_R          -148.4630   -90.5002    0.0000  bottom
+D52       DIODE     D_1206_R          -148.5646  -109.5502    0.0000  bottom
+D54       DIODE     D_1206_R          -148.5646  -128.6002    0.0000  bottom
+D56       DIODE     D_1206_R          -148.5646  -147.6502    0.0000  bottom
+D58       DIODE     D_1206_R           -70.9422  -157.9626  115.0000  bottom
+D60       DIODE     D_1206_R          -167.5638   -74.6506    0.0000  bottom
+D62       DIODE     D_1206_R          -167.6146   -93.6498    0.0000  bottom
+D64       DIODE     D_1206_R          -167.5638  -112.7506    0.0000  bottom
+D66       DIODE     D_1206_R          -167.6146  -131.8006    0.0000  bottom
+D68       DIODE     D_1206_R          -167.6146  -150.7998    0.0000  bottom
+D70       DIODE     D_1206_R           -53.9750  -184.7342   25.0000  bottom
+D72       DIODE     D_1206_R          -186.6900   -74.6760    0.0000  bottom
+D74       DIODE     D_1206_R          -186.6900   -93.7260    0.0000  bottom
+D75       DIODE     D_1206_L          -186.6900  -112.7760    0.0000  bottom
+D77       DIODE     D_1206_L          -186.6900  -131.8260    0.0000  bottom
+D80       DIODE     D_1206_R          -186.6646  -150.7998    0.0000  bottom
+D801      DIODE     D_1206_R           -72.4510  -110.7440    0.0000  bottom
+## End
