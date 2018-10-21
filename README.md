@@ -1,5 +1,7 @@
 # ErgoCompressed
-Making Ergodox/Ergodone smaller without sacrificing functionality.
+Making Ergodone smaller without sacrificing functionality.
+
+![3d render](https://raw.githubusercontent.com/przemo-c/ErgoCompressed/master/ErgoCompressed_wip.png "3d Render of the board")
 
 based on :ErgoDone
 
